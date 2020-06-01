@@ -1,24 +1,44 @@
+/*.boxletter{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  width: 1115px;
+  height: 768px;
+  position: relative;
+  z-index: 1;
+  object-fit: cover;
+}
+
+
 .title{
   margin-left: auto;
   margin-right: auto;
   display: block;
   width: 300px;
   height: 300px;
-}
+  position: relative;
+  z-index: 2;
+  padding: 150px 100px 400px 100px;
+}*/
 
 
 h1{
   font-family: helvetica;
   text-align: center;
-  font-size: 85px;
-  margin-top: -20px;
+  font-size: 40px;
+  /*margin-top: -20px;*/
+  padding-bottom: 5px;
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
 }
 
 .flower{
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 100px;
+  /*margin-top: 10px;*/
   width: 40%;
   height: 40%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -26,14 +46,18 @@ h1{
 
 h2{
   margin-top: 50px;
+  margin-bottom: 150px;
   text-align: center;
   font-family: helvetica;
-  font-size: 40px;
+  font-size: 30px;
   letter-spacing: -1px;
-/*  text-decoration: underline; */
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  /*text-decoration: underline;*/
 }
 
-body{
+/*body{
   background: url(https://user-images.githubusercontent.com/66208399/83361468-73fc8f00-a389-11ea-9f5f-4eb0790c3ca9.jpg)
   no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -41,7 +65,7 @@ body{
   -o-background-size: cover;
   background-size: cover;
 
-}
+}*/
 
 p{
   font-family: futura;
@@ -51,8 +75,30 @@ p{
 
 }
 
-.submit{
+.submit {
+  background-color: white;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  display: inline-block;
+
+  margin-left:535px;
+  transition-duration: 0.4s;
+  cursor: pointer;
   font-size: 30px;
   text-align: center;
   margin-bottom: 100px;
+  color: black;
+  border: 2px solid #555555;
 }
+
+.submit:hover {
+  background-color: #555555;
+  color: white;
+
+/*.submit{
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 100px;
+}*/
