@@ -49,7 +49,7 @@ h2{
   margin-bottom: 150px;
   text-align: center;
   font-family: helvetica;
-  font-size: 30px;
+  font-size: 20px;
   letter-spacing: -1px;
   -webkit-text-fill-color: white;
   -webkit-text-stroke-width: 1px;
@@ -57,15 +57,7 @@ h2{
   /*text-decoration: underline;*/
 }
 
-/*body{
-  background: url(https://user-images.githubusercontent.com/66208399/83361468-73fc8f00-a389-11ea-9f5f-4eb0790c3ca9.jpg)
-  no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
 
-}*/
 
 p{
   font-family: futura;
