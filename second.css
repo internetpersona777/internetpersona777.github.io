@@ -3,6 +3,9 @@
 p {
   font-family: futura;
   font-size: 20;
+  text-align: center;
+  margin-top: 500px;
+  padding: 50px;
 }
 
 h2 {
