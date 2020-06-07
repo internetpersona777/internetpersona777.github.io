@@ -1,4 +1,8 @@
+body {
+  background-color: coral;
+}
+
 p {
   font-family: futura;
-  font-size: 20
+  font-size: 20;
 }
