@@ -41,31 +41,31 @@ h2 {
 }
 
 .text1{
-  margin-left: 450px;
-  display: inline-block;
-  max-width: 40%
-}
-
-.text2{
-  margin-left: 300px;
-  display: inline-block;
-  max-width: 40%
-}
-
-.text3{
-  margin-left: 340px;
-  display: inline-block;
-  max-width: 40%
-}
-
-.text4{
   margin-left: 400px;
   display: inline-block;
   max-width: 40%
 }
 
-.text5{
+.text2{
   margin-left: 500px;
+  display: inline-block;
+  max-width: 40%
+}
+
+.text3{
+  margin-left: 400px;
+  display: inline-block;
+  max-width: 40%
+}
+
+.text4{
+  margin-left: 500px;
+  display: inline-block;
+  max-width: 40%
+}
+
+.text5{
+  margin-left: 400px;
   display: inline-block;
   max-width: 40%
 }
