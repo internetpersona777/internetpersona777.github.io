@@ -22,6 +22,10 @@
   padding: 150px 100px 400px 100px;
 }*/
 
+body {
+  background-color: #abcfff;
+}
+
 
 h1{
   font-family: helvetica;
